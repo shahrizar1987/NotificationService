@@ -76,10 +76,10 @@ namespace NotificationService.Controllers
         [ModelStateValidation]
         public async Task<IHttpActionResult> GenericPush(GenericPush Req)
         {
-            //if (!Request.IsLocal())
-            //{
-            //    throw new HttpResponseException(HttpStatusCode.NotFound);
-            //}
+            if (!Request.IsLocal())
+            {
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+            }
 
             JObject obj = new JObject
             {
