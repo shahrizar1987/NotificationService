@@ -22,9 +22,10 @@ namespace NotificationService.Controllers
         [ModelStateValidation]
         public async Task<IHttpActionResult> Terminal(string TID, string MID, string Title, string Body, int NotificationType)
         {
-            //only can be access locally
+           
             if (!Request.IsLocal())
             {
+                //only can be access locally
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
 
