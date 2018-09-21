@@ -25,7 +25,6 @@ namespace NotificationService.Controllers
            
             if (!Request.IsLocal())
             {
-                //only can be access locally
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
 
