@@ -68,8 +68,8 @@ namespace NotificationService.Controllers
         [ModelStateValidation]
         public async Task<IHttpActionResult> Smartphone()
         {
-            
-            return Ok()
+
+            return Ok();
         }
 
         [Route("GenericPush")]
