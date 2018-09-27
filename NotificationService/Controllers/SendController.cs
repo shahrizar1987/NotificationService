@@ -69,7 +69,7 @@ namespace NotificationService.Controllers
         public async Task<IHttpActionResult> Smartphone()
         {
             
-            return Ok();
+            return Ok()
         }
 
         [Route("GenericPush")]
