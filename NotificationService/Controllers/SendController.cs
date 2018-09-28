@@ -98,9 +98,5 @@ namespace NotificationService.Controllers
             JObject json = JObject.Parse(Result);
             return Ok(json);
         }
-
-
-
-
     }
 }
