@@ -63,14 +63,14 @@ namespace NotificationService.Controllers
             return Ok(obj);
         }
 
-        [Route("Smartphone")]
-        [HttpGet]
-        [ModelStateValidation]
-        public async Task<IHttpActionResult> Smartphone()
-        {
+        //[Route("Smartphone")]
+        //[HttpGet]
+        //[ModelStateValidation]
+        //public async Task<IHttpActionResult> Smartphone()
+        //{
 
-            return Ok();
-        }
+        //    return Ok();
+        //}
 
         [Route("GenericPush")]
         [HttpPost]
