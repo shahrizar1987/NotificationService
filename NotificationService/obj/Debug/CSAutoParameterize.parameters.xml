@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="mCard-Web.config Connection String" description="mCard Connection String used in web.config by the application to access the database." defaultValue="data source=SHAH;initial catalog=mCard;integrated security=SSPI;Trusted_Connection=false;user id=sa;password=qwerty;MultipleActiveResultSets=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\shah\\source\\repos\\NotificationService\\NotificationService\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mCard']/@connectionString" />
-  </parameter>
-</parameters>

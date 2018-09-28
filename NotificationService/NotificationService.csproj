@@ -168,7 +168,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Publish\publish.txt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
